@@ -2391,7 +2391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CTB03082"
+		(property "Footprint" "CTB0308_2:CTB03082"
 			(at 245.11 166.04 0)
 			(effects
 				(font
