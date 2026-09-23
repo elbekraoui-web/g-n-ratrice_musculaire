@@ -1,0 +1,9 @@
+Manufacturer=Multicomp Pro
+PartNumber=MP002808
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=2.4
+Released=2024-03-06 07:22:30
+Downloaded=2026-09-22 12:35:56
+3D=Y

@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12730431"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-22-04:59:20)
+    (utime 2026-08-07-11:35:23)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CTB0308_2")
+)
+
+
+(pinAssign "ECS_12730431"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-22-04:59:20)
+    (utime 2026-08-07-11:35:23)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12730431")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CTB0308_2")
+)
+
+
+(part "CTB0308_2"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-02-22-04:59:20)
+    (utime 2026-08-07-11:35:23)
+    (packageRef "CTB0308_2")
+    (pinAssignRef "ECS_12730431")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "TERMINAL BLOCK, WIRE TO BRD, 2POS, 16AWG")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "CAMDENBOSS")
+    (property "Manufacturer_Part_Number" "CTB0308/2")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 9.1)
+)
+
+

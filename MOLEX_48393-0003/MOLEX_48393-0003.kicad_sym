@@ -1,0 +1,210 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MOLEX_48393-0003" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "USB" (id 0) (at -22.86 13.716 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MOLEX_48393-0003" (id 1) (at -22.86 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MOLEX_48393-0003:MOLEX_48393-0003" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Molex" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            Universal Serial Bus (USB 3.0) I/O Receptacle, Right-Angle, Type A, High-Temperature Blue Nylon, 15µ' Gold (Au) Plating, Contact Height 4.00mm\n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "None" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/48393-0003/Molex/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "48393-0003" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/48393-0003/Molex/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MOLEX_48393-0003_0_0"
+      (polyline
+        (pts (xy -13.766 -0.178) (xy -15.916 -0.178)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -15.916 -0.178) (xy -16.666 -0.178)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -17.966 1.422) (xy -16.966 1.422)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -18.716 -1.628) (xy -17.516 -1.628)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -17.516 -1.628) (xy -16.666 -0.178)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -16.966 1.422) (xy -15.916 -0.178)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -16.666 -0.178) (xy -20.366 -0.178)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.366 -0.178) (xy -20.366 -0.978)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.366 -0.978) (xy -20.566 -0.978)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.566 -0.978) (xy -21.366 -0.178)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -21.366 -0.178) (xy -20.566 0.622)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.566 -0.778) (xy -20.566 0.622)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.566 0.622) (xy -20.366 0.622)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.366 0.622) (xy -20.366 -0.178)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.966 -0.178) (xy -20.966 -0.378)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.966 -0.378) (xy -20.766 -0.578)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.766 -0.578) (xy -20.766 0.222)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -20.766 0.222) (xy -21.166 -0.178)) (stroke (width 0.254))
+      )
+      (circle (center -13.766 -0.178) (radius 0.5)
+        (stroke (width 1.0)) (fill (type none))
+      )
+      (circle (center -18.366 1.422) (radius 0.2)
+        (stroke (width 1.0)) (fill (type none))
+      )
+      (rectangle (start -19.566 -2.228) (end -18.366 -1.028)
+        (stroke (width 0.1)) (fill (type outline))
+      )
+      (rectangle (start -22.86 -12.7) (end 5.08 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at 7.62 6.35 180.0) (length 2.54)
+        (name "D+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 8.89 180.0) (length 2.54)
+        (name "D-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 7.62 11.43 180.0) (length 2.54)
+        (name "VBUS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 7.62 3.81 180.0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -11.43 180.0) (length 2.54)
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -11.43 180.0) (length 2.54) hide
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -11.43 180.0) (length 2.54) hide
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -11.43 180.0) (length 2.54) hide
+        (name "SHIELD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 1.27 180.0) (length 2.54)
+        (name "STDA_SSRX-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -1.27 180.0) (length 2.54)
+        (name "STDA_SSRX+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 7.62 -3.81 180.0) (length 2.54)
+        (name "GND_DRAIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -6.35 180.0) (length 2.54)
+        (name "STDA_SSTX-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 7.62 -8.89 180.0) (length 2.54)
+        (name "STDA_SSTX+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

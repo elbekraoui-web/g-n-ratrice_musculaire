@@ -1,0 +1,9 @@
+Manufacturer=CAMDENBOSS
+PartNumber=CTB0308/2
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.5
+Released=2024-02-22 04:59:20
+Downloaded=2026-09-22 21:24:51
+3D=Y

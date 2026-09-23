@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_14859728"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-03-06-07:22:30)
+    (utime 2024-03-06-07:22:30)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MP002808")
+)
+
+
+(pinAssign "ECS_14859728"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-03-06-07:22:30)
+    (utime 2024-03-06-07:22:30)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_14859728")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MP002808")
+)
+
+
+(part "MP002808"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2024-03-06-07:22:30)
+    (utime 2024-03-06-07:22:30)
+    (packageRef "MP002808")
+    (pinAssignRef "ECS_14859728")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "L")
+    (property "description" "MULTICOMP PRO MP002808Power Inductor (SMD), 100 H, 3 A, Unshielded")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "Multicomp Pro")
+    (property "Manufacturer_Part_Number" "MP002808")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 7.11)
+)
+
+

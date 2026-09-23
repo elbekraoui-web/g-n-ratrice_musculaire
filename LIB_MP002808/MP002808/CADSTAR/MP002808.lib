@@ -1,0 +1,16 @@
+.MP002808 :1 ;MULTICOMP PRO MP002808Power Inductor (SMD), 100 H, 3 A, Unshielded
+MP002808
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN MP002808
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Multicomp Pro)
+~!Manufacturer_Part_Number (MP002808)
+~!Link Datasheet (-)
+~!Height (7.11mm)
+~!3D_Model (MP002808)
+MP002808
+1.1!U 2.1!U 

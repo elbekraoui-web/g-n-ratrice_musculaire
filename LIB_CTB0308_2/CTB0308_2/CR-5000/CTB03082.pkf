@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CTB03082"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CTB03082")
+        (spec "default")
+    )
+)

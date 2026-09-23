@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CTB0308_2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-22-04:59:20)
+    (mountForm default
+        (footprintRef "CTB03082")
+        (spec "System")
+    )
+)

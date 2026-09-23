@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CTB0308_2"
+   (description "TERMINAL BLOCK, WIRE TO BRD, 2POS, 16AWG")
+   (family "CON")
+   (package "CTB03082")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "9.1mm")
+   (attribute "Farnell Part Number" "")
+   (attribute "Farnell Price/Stock" "")
+   (attribute "Manufacturer_Name" "CAMDENBOSS")
+   (attribute "Manufacturer_Part_Number" "CTB0308/2")
+   (gate
+    (symbol "CTB0308_2")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "CTB0308_2"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CTB03082"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.06 3.8)
+      (pt 5.56 3.8)
+      (pt 5.56 -3.5)
+      (pt -2.06 -3.5)
+      (pt -2.06 3.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.06 3.8)
+      (pt 5.56 3.8)
+      (pt 5.56 -3.5)
+      (pt -2.06 -3.5)
+      (pt -2.06 3.8))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.06 4.8)
+      (pt 6.56 4.8)
+      (pt 6.56 -4.5)
+      (pt -3.06 -4.5)
+      (pt -3.06 4.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.6 0)
+      (arc (pt -2.600 0.000) (pt -2.700 -0.050) (pt -2.600 0.050) (start 180.0) (sweep .0))
+      (pt -2.7 0)
+      (arc (pt -2.700 0.000) (pt -2.700 -0.050) (pt -2.600 0.050) (start 180.0) (sweep 180.0))
+      (pt -2.6 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 3.500 0.000) (padstack 2))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (square 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (square 1.650))
+   )
+   (padstack 2
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.650))
+    (pad (layer INNER) (round 1.650))
+    (pad (layer BCOP) (round 1.650))
+   )
+   (model "CTB0308_2.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

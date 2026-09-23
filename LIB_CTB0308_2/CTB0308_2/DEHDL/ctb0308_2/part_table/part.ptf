@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CTB0308_2'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CAMDENBOSS", "CTB0308/2" (!) = "", "CTB03082", "Other", "", "", "TERMINAL BLOCK, WIRE TO BRD, 2POS, 16AWG", "", "9.1 mm"
+END_PART
+
+END.
